@@ -5,7 +5,7 @@ B.Tech IT @ KIET Group of Institutions (CGPA: 8.4)
 ---
 
 ## 🚀 About Me
-- Final-year IT undergraduate focused on **backend engineering, ML deployment, and scalable APIs**
+- IT undergraduate focused on **backend engineering, ML deployment, and scalable APIs**
 - Built and deployed **production-grade FastAPI services** with Docker & PostgreSQL
 - Experience in **ML pipelines, model serving, and real-time dashboards**
 - Actively exploring **MLOps, cloud-native systems, and AI-powered applications**
@@ -29,21 +29,18 @@ B.Tech IT @ KIET Group of Institutions (CGPA: 8.4)
 - Production-ready REST API with role-based auth & order workflows  
 - Optimized queries (~100ms latency under 1k+ concurrent users)  
 - Dockerized deployment + Swagger + Pytest (98% coverage)  
-🔗 Repo: https://github.com/vaibhav2616/<your-repo-link>
 
 ### 🔹 Insurance Premium Prediction  
 **Python • ML • FastAPI • Streamlit • Docker**  
 - ML pipeline (R² = 0.87), 22% accuracy improvement over baseline  
 - Deployed API handling 10k+ daily requests with async optimizations  
 - Streamlit dashboard for real-time predictions  
-🔗 Repo: https://github.com/vaibhav2616/<your-repo-link>
 
 ### 🔹 ReplyMate – AI Chatbot Automation  
 **Python • OCR • NLP • Gemini API**  
 - Automated replies with OCR + NLP + Gemini API  
 - Reduced manual chat effort by 40%, sub-200ms responses  
 - Personalization engine improved relevance by 25%  
-🔗 Repo: https://github.com/vaibhav2616/<your-repo-link>
 
 ---
 

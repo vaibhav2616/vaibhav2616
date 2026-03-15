@@ -27,13 +27,13 @@ B.Tech IT @ KIET Group of Institutions (CGPA: 8.4)
 ### 🔹 Pizza Delivery API  
 **FastAPI • PostgreSQL • SQLAlchemy • JWT • Docker**  
 - Production-ready REST API with role-based auth & order workflows  
-- Optimized queries (~100ms latency under 1k+ concurrent users)  
+- Optimized queries (~100ms latency under 100+ concurrent users)  
 - Dockerized deployment + Swagger + Pytest (98% coverage)  
 
 ### 🔹 Insurance Premium Prediction  
 **Python • ML • FastAPI • Streamlit • Docker**  
 - ML pipeline (R² = 0.87), 22% accuracy improvement over baseline  
-- Deployed API handling 10k+ daily requests with async optimizations  
+- Deployed API handling 100+ daily requests with async optimizations  
 - Streamlit dashboard for real-time predictions  
 
 ### 🔹 ReplyMate – AI Chatbot Automation  

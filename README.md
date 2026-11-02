@@ -39,10 +39,14 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vaibhav2616&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=060F1C&title_color=7FB3E0&text_color=8BA8C4&icon_color=4A90D9&custom_title=GitHub%20at%20a%20glance" width="420" alt="GitHub stats for vaibhav2616">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav2616&hide_border=true&background=060F1C&stroke=1A2E4A&ring=4A90D9&fire=7FB3E0&currStreakNum=E8F4FD&sideNums=E8F4FD&currStreakLabel=7FB3E0&sideLabels=8BA8C4&dates=8BA8C4" width="420" alt="GitHub streak stats">
+  <img src="https://streak-stats.demolab.com/?user=vaibhav2616&hide_border=true&background=060F1C&stroke=1A2E4A&ring=4A90D9&fire=7FB3E0&currStreakNum=E8F4FD&sideNums=E8F4FD&currStreakLabel=7FB3E0&sideLabels=8BA8C4&dates=8BA8C4" width="420" alt="GitHub streak stats">
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav2616&layout=compact&hide_border=true&border_radius=16&bg_color=060F1C&title_color=7FB3E0&text_color=8BA8C4&custom_title=Top%20Languages" width="360" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vaibhav2616/vaibhav2616/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation">
 </p>
 
 <img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Six credentials, verified.">

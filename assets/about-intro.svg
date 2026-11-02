@@ -1,50 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-labelledby="ab-title ab-desc">
+  <title id="ab-title">About Vaibhav Rastogi</title>
+  <desc id="ab-desc">B.Tech IT at KIET Group of Institutions, AKTU, CGPA 8.3. Backend Systems Intern at OrganicSabziwala. Building distributed systems, AI-agent pipelines, and production-grade microservice infra. Primary language Python. Stack: FastAPI, Django, Kafka, Redis, Docker.</desc>
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0A1628"/>
-      <stop offset="100%" style="stop-color:#060F1C"/>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#060F1C"/>
     </linearGradient>
+    <clipPath id="ab-clip-l1"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l2"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l3"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l4"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l5"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l6"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
+    <clipPath id="ab-clip-l7"><rect x="0" y="0" width="360" height="18" transform-origin="0 50%"/></clipPath>
   </defs>
-  <rect width="900" height="240" fill="#060F1C"/>
 
-  <!-- Card left accent -->
-  <rect x="0" y="0" width="900" height="240" fill="url(#cardBg)"/>
-  <rect x="40" y="24" width="820" height="192" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
-  <rect x="40" y="24" width="4" height="192" rx="2" fill="#4A90D9"/>
+  <style>
+    .ab-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ab-sans { font-family: 'Segoe UI', Arial, sans-serif; }
 
-  <!-- Column 1: Education -->
-  <text x="68" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" font-weight="600" letter-spacing="2">EDUCATION</text>
-  <text x="68" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#E8F4FD" font-weight="600">B.Tech in Information Technology</text>
-  <text x="68" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#8BA8C4">KIET Group of Institutions, AKTU</text>
-  <text x="68" y="116" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#8BA8C4">2023 – 2027  ·  CGPA 8.3</text>
-  <text x="68" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#8BA8C4">Senior Secondary: St. Anthony's School, CBSE</text>
-  <text x="68" y="154" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#8BA8C4">2021 – 2022  ·  85%</text>
+    /* Typewriter reveal per line via scaleX clip-path */
+    .ab-l1 { animation: ab-type 0.6s steps(1,end) 0.4s both; }
+    .ab-l2 { animation: ab-type 0.7s steps(1,end) 1.0s both; }
+    .ab-l3 { animation: ab-type 0.7s steps(1,end) 1.7s both; }
+    .ab-l4 { animation: ab-type 0.7s steps(1,end) 2.4s both; }
+    .ab-l5 { animation: ab-type 0.7s steps(1,end) 3.1s both; }
+    .ab-l6 { animation: ab-type 0.7s steps(1,end) 3.8s both; }
+    .ab-l7 { animation: ab-type 0.7s steps(1,end) 4.5s both; }
 
-  <!-- Vertical divider -->
-  <rect x="310" y="40" width="1" height="170" fill="#1A2E4A"/>
+    /* Card slide-in */
+    .ab-card { animation: ab-in 0.9s cubic-bezier(.16,1,.3,1) both; }
+    .ab-c1 { animation-delay: 0.3s; }
+    .ab-c2 { animation-delay: 0.55s; }
+    .ab-c3 { animation-delay: 0.8s; }
 
-  <!-- Column 2: Experience -->
-  <text x="336" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" font-weight="600" letter-spacing="2">EXPERIENCE</text>
-  <text x="336" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#E8F4FD" font-weight="600">Backend Systems Intern</text>
-  <text x="336" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#7FB3E0">OrganicSabziwala  (B2B + B2C Grocery)</text>
-  <text x="336" y="116" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#8BA8C4">Dec 2025 – May 2026  ·  Ghaziabad</text>
-  <text x="336" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8BA8C4">→ Resolved inventory data inconsistencies</text>
-  <text x="336" y="154" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8BA8C4">→ Redesigned backend data flows &amp; validation</text>
-  <text x="336" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8BA8C4">→ Improved order processing reliability</text>
+    @keyframes ab-type { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes ab-in { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ab-l1,.ab-l2,.ab-l3,.ab-l4,.ab-l5,.ab-l6,.ab-l7 { animation: none; }
+      .ab-card { animation: none; }
+    }
+  </style>
 
-  <!-- Vertical divider 2 -->
-  <rect x="590" y="40" width="1" height="170" fill="#1A2E4A"/>
+  <rect width="900" height="280" fill="url(#ab-bg)" rx="12"/>
+  <rect x="0.5" y="0.5" width="899" height="279" rx="11.5" fill="none" stroke="#1A2E4A" stroke-opacity="0.8"/>
 
-  <!-- Column 3: Focus -->
-  <text x="616" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" font-weight="600" letter-spacing="2">PRIMARY FOCUS</text>
-  <text x="616" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">⚡  Distributed Systems</text>
-  <text x="616" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">🤖  AI Agent Pipelines</text>
-  <text x="616" y="122" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">🔧  Event-Driven Architecture</text>
-  <text x="616" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">🌐  Backend Microservices</text>
-  <text x="616" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">🥽  AR / VR  (GDG Mentor)</text>
-  <text x="616" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8F4FD">☁️  Cloud Native (AWS)</text>
+  <!-- LEFT: Fake terminal -->
+  <rect x="24" y="20" width="420" height="240" rx="8" fill="#060F1C" stroke="#1A2E4A" stroke-width="1"/>
+  <!-- Terminal title bar -->
+  <rect x="24" y="20" width="420" height="28" rx="8" fill="#0A1628"/>
+  <rect x="24" y="36" width="420" height="12" fill="#0A1628"/>
+  <circle cx="42" cy="34" r="5" fill="#FF5F57"/>
+  <circle cx="58" cy="34" r="5" fill="#FFBD2E"/>
+  <circle cx="74" cy="34" r="5" fill="#28C840"/>
+  <text class="ab-mono" x="200" y="38" font-size="10" fill="#8BA8C4" text-anchor="middle">vaibhav@portfolio: ~</text>
 
-  <!-- Bottom label -->
-  <text x="68" y="202" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#4A90D9" font-style="italic" opacity="0.7">Primary language Python · Stack FastAPI / Django / Kafka / Redis / Docker · Cloud AWS</text>
+  <!-- Terminal content lines -->
+  <text class="ab-mono ab-l1" x="40" y="72" font-size="11" fill="#4A90D9">$ whoami</text>
+  <text class="ab-mono ab-l2" x="40" y="90" font-size="11" fill="#E8F4FD">Vaibhav Rastogi — Backend Engineer &amp; AI Builder</text>
+  <text class="ab-mono ab-l3" x="40" y="116" font-size="11" fill="#4A90D9">$ cat education.txt</text>
+  <text class="ab-mono ab-l4" x="40" y="134" font-size="11" fill="#E8F4FD">B.Tech IT · KIET Group of Institutions, AKTU</text>
+  <text class="ab-mono ab-l5" x="40" y="150" font-size="11" fill="#8BA8C4">CGPA: 8.3 · 2023–2027 · Ghaziabad, UP</text>
+  <text class="ab-mono ab-l6" x="40" y="176" font-size="11" fill="#4A90D9">$ cat internship.txt</text>
+  <text class="ab-mono ab-l7" x="40" y="194" font-size="11" fill="#E8F4FD">Backend Systems Intern @ OrganicSabziwala</text>
+  <text class="ab-mono" x="40" y="210" font-size="11" fill="#8BA8C4" opacity="0">Dec 2025–May 2026</text>
+
+  <!-- Blinking cursor -->
+  <rect x="40" y="222" width="7" height="12" rx="1" fill="#4A90D9">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- RIGHT: 3 animated slide-in cards -->
+  <!-- Card 1: Primary Language -->
+  <g class="ab-card ab-c1" transform="translate(466,20)">
+    <rect width="410" height="68" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
+    <rect width="4" height="68" rx="2" fill="#4A90D9"/>
+    <text class="ab-mono" x="18" y="22" font-size="9" letter-spacing="2" fill="#4A90D9">PRIMARY LANGUAGE</text>
+    <text class="ab-sans" x="18" y="50" font-size="26" font-weight="700" fill="#E8F4FD">Python</text>
+    <text class="ab-mono" x="115" y="50" font-size="10" fill="#7FB3E0">PRIMARY</text>
+  </g>
+
+  <!-- Card 2: Stack -->
+  <g class="ab-card ab-c2" transform="translate(466,102)">
+    <rect width="410" height="68" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
+    <rect width="4" height="68" rx="2" fill="#7FB3E0"/>
+    <text class="ab-mono" x="18" y="22" font-size="9" letter-spacing="2" fill="#4A90D9">WHERE SYSTEMS LIVE</text>
+    <text class="ab-sans" x="18" y="46" font-size="14" fill="#E8F4FD">FastAPI · Django · Kafka · Redis</text>
+    <text class="ab-sans" x="18" y="62" font-size="13" fill="#8BA8C4">Docker · PostgreSQL · AWS</text>
+  </g>
+
+  <!-- Card 3: Focus -->
+  <g class="ab-card ab-c3" transform="translate(466,184)">
+    <rect width="410" height="76" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
+    <rect width="4" height="76" rx="2" fill="#4A90D9" opacity="0.7"/>
+    <text class="ab-mono" x="18" y="22" font-size="9" letter-spacing="2" fill="#4A90D9">DRAWN TO</text>
+    <text class="ab-sans" x="18" y="44" font-size="13" fill="#E8F4FD">⚡ Distributed Systems   🤖 AI Agent Pipelines</text>
+    <text class="ab-sans" x="18" y="62" font-size="13" fill="#E8F4FD">🔧 Event-Driven Arch     🥽 AR/VR (GDG Mentor)</text>
+  </g>
 </svg>
-

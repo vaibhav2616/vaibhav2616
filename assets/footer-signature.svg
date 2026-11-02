@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#060F1C"/>
+      <stop offset="50%" style="stop-color:#0D1F3C"/>
+      <stop offset="100%" style="stop-color:#060F1C"/>
+    </linearGradient>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#4A90D9"/>
+      <stop offset="70%" style="stop-color:#7FB3E0"/>
+      <stop offset="100%" style="stop-color:#7FB3E0;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="110" fill="url(#footerBg)"/>
+  <!-- Top line -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#footerLine)"/>
+
+  <!-- Name -->
+  <text x="450" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#E8F4FD" text-anchor="middle" letter-spacing="1">Vaibhav Rastogi</text>
+
+  <!-- Tagline -->
+  <text x="450" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#7FB3E0" text-anchor="middle" font-style="italic">Building systems that fail safely and scale silently.</text>
+
+  <!-- Bottom corners -->
+  <text x="20" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" opacity="0.5">vaibhav2616</text>
+  <text x="880" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" text-anchor="end" opacity="0.5">KIET Group of Institutions · 2023–2027</text>
+</svg>
+

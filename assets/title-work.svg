@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70">
+  <rect width="900" height="70" fill="#060F1C"/>
+  <text x="40" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" font-weight="600" letter-spacing="3" opacity="0.8">03</text>
+  <text x="62" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#1A2E4A" letter-spacing="3">——————————————</text>
+  <text x="40" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#E8F4FD" letter-spacing="0.5">Selected Work</text>
+  <text x="252" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8BA8C4" font-style="italic"> — Systems, not assignments.</text>
+</svg>
+

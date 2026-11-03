@@ -45,7 +45,7 @@
 <img src="assets/cyber/contribution-snake.svg" width="100%" alt="Animated snake eating real public GitHub contributions for @vaibhav2616 over the past year: 2,438 contributions, 282 active days, longest streak 62 days, busiest day 48 contributions. Re-rendered daily.">
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vaibhav2616&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=16&amp;bg_color=190B12&amp;title_color=E5B5C7&amp;text_color=B6A3AC&amp;icon_color=C77B9B&amp;custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for vaibhav2616: stars, commits, pull requests and issues">
+  <img src="assets/cyber/github-stats.svg" width="495" alt="GitHub at a glance for vaibhav2616 (Cyber Edition): stars, commits, pull requests and issues">
 </p>
 
 <img src="assets/cyber/title-certifications.svg" width="100%" alt="06 Certifications — Industry credentials, verified.">

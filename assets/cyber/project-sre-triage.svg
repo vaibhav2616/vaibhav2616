@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p1-t">
+  <title id="p1-t">SRE Incident Triage Agent: Autonomous telemetry analysis and remediation.</title>
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/><stop offset="1" stop-color="#070b16"/>
+    </linearGradient>
+    <radialGradient id="p1-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#247bff" stop-opacity=".7"/><stop offset="1" stop-color="#1e3554" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p1-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#4d9fff" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="p1-glowf" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="p1-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p1-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f5ff"/><stop offset=".45" stop-color="#00e5ff"/><stop offset="1" stop-color="#4d9fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p1-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p1-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p1-sans  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p1-in    { animation: p1-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .p1-d1    { animation-delay: .15s; } .p1-d2 { animation-delay: .4s; }
+    .p1-chip  { animation: p1-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes p1-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .p1-draw  { stroke-dasharray: 600; stroke-dashoffset: 600; animation: p1-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes p1-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes p1-draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p1-in, .p1-chip { animation: none; } .p1-draw { animation: none; stroke-dashoffset: 0; } }
+    .p1-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p1-trace 7s linear infinite; }
+    @keyframes p1-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p1-trace { display: none; } }
+  </style>
+
+  <g clip-path="url(#p1-clip)">
+    <rect width="1200" height="370" fill="url(#p1-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p1-grid)"/>
+    <rect width="1200" height="370" fill="url(#p1-glow)"/>
+
+    <!-- Left Column: Content & Metrics -->
+    <g class="p1-in p1-d1">
+      <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#4d9fff">04 · AUTONOMOUS AGENTS · SRE · 2026</text>
+      <text class="p1-serif" x="54" y="126" font-size="50" font-weight="300" letter-spacing="-1.5" fill="#f2f5ff">SRE Incident Triage Agent</text>
+      <text class="p1-sans" x="56" y="166" font-size="17" fill="#8e9db9">Autonomous CrewAI + Gemini agent analyzing live telemetry &amp; orchestrating runbooks.</text>
+      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#00e5ff"><tspan fill="#4d9fff">BUILT ›</tspan> Multi-agent system synthesizing log spikes, identifying root cause, and dispatching remediation</text>
+      <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#4d9fff" stroke-opacity=".3"/>
+
+      <g transform="translate(56 266)">
+        <text class="p1-serif" font-size="34" font-weight="300" fill="#f2f5ff">80%</text>
+        <text class="p1-sans" y="24" font-size="12.5" fill="#8e9db9">MTTR reduction</text>
+      </g>
+      <g transform="translate(261 266)">
+        <text class="p1-serif" font-size="34" font-weight="300" fill="#f2f5ff">CrewAI</text>
+        <text class="p1-sans" y="24" font-size="12.5" fill="#8e9db9">multi-agent choreography</text>
+      </g>
+      <g transform="translate(466 266)">
+        <text class="p1-serif" font-size="34" font-weight="300" fill="#f2f5ff">Real-Time</text>
+        <text class="p1-sans" y="24" font-size="12.5" fill="#8e9db9">telemetry stream triage</text>
+      </g>
+
+      <!-- Chips -->
+      <g class="p1-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#101c30" stroke="#4d9fff" stroke-opacity=".35"/><text class="p1-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#00e5ff">CrewAI</text></g>
+      <g class="p1-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="70" height="26" rx="13" fill="#101c30" stroke="#4d9fff" stroke-opacity=".35"/><text class="p1-mono" x="169" y="331" text-anchor="middle" font-size="11.5" fill="#00e5ff">Python</text></g>
+      <g class="p1-chip" style="animation-delay:1.24s"><rect x="212" y="314" width="94" height="26" rx="13" fill="#101c30" stroke="#4d9fff" stroke-opacity=".35"/><text class="p1-mono" x="259" y="331" text-anchor="middle" font-size="11.5" fill="#00e5ff">Gemini API</text></g>
+      <g class="p1-chip" style="animation-delay:1.36s"><rect x="314" y="314" width="70" height="26" rx="13" fill="#101c30" stroke="#4d9fff" stroke-opacity=".35"/><text class="p1-mono" x="349" y="331" text-anchor="middle" font-size="11.5" fill="#00e5ff">Docker</text></g>
+      <g class="p1-chip" style="animation-delay:1.48s"><rect x="392" y="314" width="60" height="26" rx="13" fill="#101c30" stroke="#4d9fff" stroke-opacity=".35"/><text class="p1-mono" x="422" y="331" text-anchor="middle" font-size="11.5" fill="#00e5ff">MCP</text></g>
+    </g>
+
+    <!-- Right Column: Flow Telemetry Diagram with Bezier Pipes & Animated Moving Packet -->
+    <g class="p1-in p1-d2"><g transform="translate(0 35)">
+      <g transform="translate(750 40)" class="p1-mono" font-size="13" text-anchor="middle">
+        <text x="12" y="20" text-anchor="start" font-size="10.5" letter-spacing="2.4" fill="#8e9db9">LOG TELEMETRY → CREWAI AGENT → RUNBOOK DISPATCH</text>
+        <path d="M12 120 H70" stroke="#4d9fff" stroke-opacity=".5"/>
+        <!-- Bezier pipeline curves -->
+        <path class="p1-draw" d="M190 120 C 240 120, 250 64, 300 64" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+        <path d="M190 120 C 240 120, 250 176, 300 176" fill="none" stroke="#4d9fff" stroke-opacity=".45" stroke-dasharray="4 6"/>
+        
+        <!-- Processing Node -->
+        <rect x="70" y="98" width="120" height="44" rx="22" fill="#101c30" stroke="#4d9fff" stroke-opacity=".5"/>
+        <text x="130" y="125" fill="#f2f5ff">Log Spikes</text>
+        
+        <!-- CrewAI Reasoner Node -->
+        <rect x="300" y="42" width="126" height="44" rx="22" fill="#1e3554" stroke="#00e5ff"/>
+        <text x="363" y="69" fill="#f2f5ff">CrewAI Agent</text>
+
+        <!-- Runbook Remediation Node -->
+        <rect x="300" y="154" width="126" height="44" rx="22" fill="#070b16" stroke="#4d9fff" stroke-opacity=".4"/>
+        <text x="363" y="181" fill="#8e9db9">Auto Runbook</text>
+
+        <!-- Glowing moving packet dot -->
+        <circle r="4.5" fill="#f2f5ff" filter="url(#p1-glowf)">
+          <animateMotion dur="3.6s" repeatCount="indefinite" path="M12 120 H130 C 220 120, 250 64, 363 64" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+        </circle>
+        <text x="12" y="236" text-anchor="start" font-size="10.5" letter-spacing="1.5" fill="#8e9db9">root cause analysis · auto mitigation pull request</text>
+      </g>
+    </g></g>
+
+    <!-- Outer card border & continuous laser trace -->
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#4d9fff" stroke-opacity=".2"/>
+    <rect class="p1-trace" style="animation-delay:-0.5s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p1-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

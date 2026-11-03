@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ce-t ce-d">
+  <title id="ce-t">Certifications &amp; Credentials</title>
+  <desc id="ce-d">AWS Certified Cloud Practitioner, AWS Generative AI Practitioner, Cisco Networking Essentials, Introduction to Modern AI, Palo Alto Networks Cybersecurity Fundamentals, and Linux Command Line Infosys Springboard.</desc>
+  <defs>
+    <linearGradient id="ce-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070b16"/><stop offset="1" stop-color="#070b16"/></linearGradient>
+    <radialGradient id="ce-glow" cx="15%" cy="100%" r="70%"><stop offset="0" stop-color="#247bff" stop-opacity=".5"/><stop offset="1" stop-color="#1e3554" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ce-edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5ff"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#4d9fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .ce-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ce-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ce-sans  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ce-tile  { animation: ce-in 1s cubic-bezier(.34,1.3,.64,1) both; }
+    .ce-edge  { stroke-dasharray: 1028; stroke-dashoffset: 1028; animation: ce-edge 6s cubic-bezier(.65,0,.35,1) infinite; }
+    @keyframes ce-in { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
+    @keyframes ce-edge { 0% { stroke-dashoffset: 1028; opacity: 1; } 40% { stroke-dashoffset: 0; opacity: 1; } 60%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .ce-tile { animation: none; } .ce-edge { display: none; } }
+  </style>
+
+  <rect width="1200" height="420" rx="20" fill="url(#ce-bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ce-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#4d9fff" stroke-opacity=".16"/>
+
+  <!-- Row 1: 3 Tiles -->
+  <!-- Tile 1: AWS Cloud Practitioner -->
+  <g class="ce-tile" style="animation-delay:0.20s"><g transform="translate(40 40)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.00s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">AWS · JAN 2026</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/><circle cx="314" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">AWS Certified Cloud Practitioner</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Amazon Web Services</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">Cloud Architecture &amp; Core Infrastructure</text>
+  </g></g>
+
+  <!-- Tile 2: AWS Generative AI Practitioner -->
+  <g class="ce-tile" style="animation-delay:0.35s"><g transform="translate(423 40)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.35s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">AWS · JAN 2026</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/><circle cx="314" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">AWS Generative AI Practitioner</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Amazon Web Services</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">Foundation Models &amp; GenAI Pipelines</text>
+  </g></g>
+
+  <!-- Tile 3: Cisco Networking Essentials -->
+  <g class="ce-tile" style="animation-delay:0.50s"><g transform="translate(806 40)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.70s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">CISCO · APR 2026</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/><circle cx="314" cy="30" r="3.5" fill="#4d9fff"/><circle cx="302" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">Cisco Networking Essentials</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Cisco Networking Academy (CCNA track)</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">IP Routing, Switching &amp; Network Defense</text>
+  </g></g>
+
+  <!-- Row 2: 3 Tiles -->
+  <!-- Tile 4: Introduction to Modern AI -->
+  <g class="ce-tile" style="animation-delay:0.65s"><g transform="translate(40 220)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.05s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">AI &amp; ML · MAY 2026</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/><circle cx="314" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">Introduction to Modern AI</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Applied Machine Learning</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">Neural Networks &amp; Deep Learning Fundamentals</text>
+  </g></g>
+
+  <!-- Tile 5: Palo Alto Networks Cybersecurity -->
+  <g class="ce-tile" style="animation-delay:0.80s"><g transform="translate(423 220)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.40s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">PALO ALTO NETWORKS</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/><circle cx="314" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">Cybersecurity Fundamentals</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Palo Alto Networks (PCCET Gateway)</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">Zero Trust Architecture &amp; Threat Defense</text>
+  </g></g>
+
+  <!-- Tile 6: Linux Command Line (Infosys) -->
+  <g class="ce-tile" style="animation-delay:0.95s"><g transform="translate(806 220)">
+    <rect width="354" height="160" rx="14" fill="#070b16" stroke="#4d9fff" stroke-opacity=".24"/>
+    <rect width="354" height="160" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.75s"/>
+    <text class="ce-mono" x="22" y="34" font-size="11.5" letter-spacing="2.6" fill="#4d9fff">INFOSYS SPRINGBOARD</text>
+    <circle cx="326" cy="30" r="3.5" fill="#4d9fff"/>
+    <line x1="22" y1="50" x2="332" y2="50" stroke="#4d9fff" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="82" font-size="15" font-weight="500" fill="#f2f5ff">Linux Command Line</text>
+    <text class="ce-sans" x="22" y="106" font-size="13.5" fill="#8e9db9">Infosys Springboard</text>
+    <text class="ce-mono" x="22" y="130" font-size="11" fill="#00e5ff">Shell Scripting, OS Internals &amp; POSIX</text>
+  </g></g>
+</svg>

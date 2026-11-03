@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/vaibhav-rastogi-26asvr/"><img src="https://img.shields.io/badge/LinkedIn-vaibhav--rastogi-701A3D?style=for-the-badge&amp;labelColor=190B12&amp;logoColor=F8F0F3&amp;logo=linkedin" alt="LinkedIn profile"></a>
   <a href="https://github.com/vaibhav2616"><img src="https://img.shields.io/badge/GitHub-vaibhav2616-701A3D?style=for-the-badge&amp;labelColor=190B12&amp;logoColor=F8F0F3&amp;logo=github" alt="GitHub profile"></a>
   <a href="https://leetcode.com/u/vaibhav123i/"><img src="https://img.shields.io/badge/LeetCode-vaibhav123i-701A3D?style=for-the-badge&amp;labelColor=190B12&amp;logoColor=F8F0F3&amp;logo=leetcode" alt="LeetCode profile"></a>
-  <a href="mailto:vaibhav.2327it1108@kiet.edu"><img src="https://img.shields.io/badge/Email-vaibhav.2327it1108@kiet.edu-701A3D?style=for-the-badge&amp;labelColor=190B12&amp;logoColor=F8F0F3&amp;logo=gmail" alt="Email"></a>
+  <a href="mailto:rastogiv215@gmail.com"><img src="https://img.shields.io/badge/Email-rastogiv215@gmail.com-701A3D?style=for-the-badge&amp;labelColor=190B12&amp;logoColor=F8F0F3&amp;logo=gmail" alt="Email"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Vaibhav.">

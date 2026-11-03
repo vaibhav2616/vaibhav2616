@@ -39,7 +39,7 @@
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
 <img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack. Languages: Python (primary), C, C++, C#, SQL, JavaScript. AI/ML: CrewAI, Gemini API, MCP, NLP, OCR. Backend: FastAPI, Django, REST APIs, SQLAlchemy, JWT. Data and infrastructure: PostgreSQL, Kafka, Redis, Docker, AWS. Tools: Git, GitHub, Postman.">
-<img src="assets/id-dashboard-stack.svg" width="100%" alt="Builder ID Pass &amp; Systems Engine Room: Verified identity, photo badge, and blue/red cyber systems tech console covering Python, Go, C/C++, FastAPI, Kafka, Redis, Docker, and AWS.">
+<img src="assets/id-dashboard-stack.svg" width="100%" alt="Builder ID Pass &amp; Systems Engine Room: Verified identity, photo badge, and burgundy systems tech console covering Python (Primary), FastAPI, Django, C/C++, SQL, Kafka, Redis, Docker, and AWS.">
 
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">
 <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating real public GitHub contributions for @vaibhav2616 over the past year: 2,438 contributions, 282 active days, longest streak 62 days, busiest day 48 contributions. Re-rendered daily.">

@@ -1,157 +1,168 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Vaibhav Rastogi — Backend Engineer &amp; AI Systems Builder</title>
-  <desc id="hero-desc">Building distributed systems that fail safely and scale silently.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="hero-t hero-d">
+  <title id="hero-t">Vaibhav Rastogi — Backend Systems Engineer &amp; AI Architect</title>
+  <desc id="hero-d">Building distributed systems that fail safely and scale silently. B.Tech IT at KIET Group of Institutions, AKTU, CGPA 8.3.</desc>
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060F1C"/>
-      <stop offset="100%" stop-color="#0D1F3C"/>
+    <linearGradient id="vh-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#4A90D9" stop-opacity="1"/>
-      <stop offset="70%" stop-color="#7FB3E0" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#7FB3E0" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="nameSheen" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#E8F4FD"/>
-      <stop offset="40%" stop-color="#E8F4FD"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
-      <stop offset="60%" stop-color="#E8F4FD"/>
-      <stop offset="100%" stop-color="#E8F4FD"/>
-    </linearGradient>
-    <linearGradient id="nameSheenAnim" x1="-100%" y1="0%" x2="0%" y2="0%" gradientUnits="userSpaceOnUse">
-      <animateTransform attributeName="gradientTransform" type="translate" values="-900 0;900 0;900 0" dur="4s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;0 0 1 1"/>
-    </linearGradient>
-    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#4A90D9" stop-opacity="0"/>
+    <radialGradient id="vh-glow" cx="85%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".75"/>
+      <stop offset="60%" stop-color="#451126" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#451126" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <radialGradient id="vh-glow-left" cx="15%" cy="80%" r="60%">
+      <stop offset="0" stop-color="#451126" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vh-sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#E5B5C7"/>
+      <stop offset=".5" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1600 0;1600 0" keyTimes="0;.45;1" dur="6.5s" begin="1.2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="vh-pulse">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset=".5" stop-color="#E5B5C7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="vh-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="vh-glowf" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="svgClip">
-      <rect width="900" height="440"/>
-    </clipPath>
+    <clipPath id="vh-clip"><rect width="1200" height="500" rx="20"/></clipPath>
   </defs>
 
   <style>
-    .d1 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 0.1s both; }
-    .d2 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 0.3s both; }
-    .d3 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 0.5s both; }
-    .d4 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 0.7s both; }
-    .d5 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 0.9s both; }
-    .d6 { animation: hero-rise 0.8s cubic-bezier(.16,1,.3,1) 1.1s both; }
-    .hero-draw { stroke-dasharray: 900; stroke-dashoffset: 900; animation: hero-draw 2.4s cubic-bezier(.65,0,.35,1) 0.3s forwards; }
-    @keyframes hero-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-    @keyframes hero-draw { to { stroke-dashoffset: 0; } }
+    .vh-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .vh-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .vh-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .vh-in { animation: vh-rise 1.1s cubic-bezier(.16,1,.3,1) both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+    .d4 { animation-delay: .55s; } .d5 { animation-delay: .7s; } .d6 { animation-delay: .85s; }
+    .vh-draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: vh-draw 2.4s cubic-bezier(.65,0,.35,1) .4s forwards; }
+    @keyframes vh-rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes vh-draw { to { stroke-dashoffset: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .d1,.d2,.d3,.d4,.d5,.d6 { animation: none; }
-      .hero-draw { animation: none; stroke-dashoffset: 0; }
+      .vh-in { animation: none; }
+      .vh-draw { animation: none; stroke-dashoffset: 0; }
     }
   </style>
 
-  <!-- Background -->
-  <rect width="900" height="440" fill="url(#bgGrad)"/>
+  <g clip-path="url(#vh-clip)">
+    <!-- Base Background & Ambient Glow -->
+    <rect width="1200" height="500" fill="url(#vh-bg)"/>
+    <rect width="1200" height="500" fill="url(#vh-grid)"/>
+    <rect width="1200" height="500" fill="url(#vh-glow)"/>
+    <rect width="1200" height="500" fill="url(#vh-glow-left)"/>
+    <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".18"/>
 
-  <!-- Floating orbs (animated) -->
-  <ellipse cx="750" cy="180" rx="160" ry="100" fill="#4A90D9" opacity="0.03">
-    <animateTransform attributeName="transform" type="translate" values="0 0;-40 25;0 0" dur="22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-  </ellipse>
-  <ellipse cx="820" cy="300" rx="100" ry="60" fill="#7FB3E0" opacity="0.04">
-    <animateTransform attributeName="transform" type="translate" values="0 0;30 -20;0 0" dur="28s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-  </ellipse>
+    <!-- Subtle Floating Orbs (SMIL) -->
+    <ellipse cx="980" cy="220" rx="200" ry="120" fill="#701A3D" opacity=".35">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-40 25;0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+    </ellipse>
+    <ellipse cx="880" cy="380" rx="140" ry="80" fill="#451126" opacity=".4">
+      <animateTransform attributeName="transform" type="translate" values="0 0;35 -20;0 0" dur="20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+    </ellipse>
 
-  <!-- Scan line (animated) -->
-  <rect clip-path="url(#svgClip)" x="0" width="900" height="1.5" fill="#4A90D9" opacity="0.18">
-    <animate attributeName="y" values="-2;442;-2" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.85;1" keySplines=".42 0 .58 1;0 0 1 1"/>
-    <animate attributeName="opacity" values="0;0.18;0.18;0" keyTimes="0;0.05;0.9;1" dur="9s" repeatCount="indefinite"/>
-  </rect>
+    <!-- Scan Line -->
+    <rect x="0" width="1200" height="1.5" fill="#E5B5C7" opacity=".12">
+      <animate attributeName="y" values="-2;502;-2" dur="10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.85;1" keySplines=".42 0 .58 1;0 0 1 1"/>
+      <animate attributeName="opacity" values="0;.14;.14;0" keyTimes="0;.05;.9;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
 
-  <!-- Drifting particles -->
-  <g clip-path="url(#svgClip)" opacity="0.5">
-    <circle cx="80" cy="60" r="1.5" fill="#4A90D9">
-      <animate attributeName="cy" values="60;400;60" dur="14s" repeatCount="indefinite" calcMode="linear"/>
-      <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite"/>
+    <!-- Drifting Micro Particles -->
+    <circle cx="140" cy="80" r="1.5" fill="#E5B5C7" opacity=".5">
+      <animate attributeName="cy" values="80;420;80" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.6;.6;0" keyTimes="0;.1;.9;1" dur="16s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="860" cy="350" r="1.2" fill="#7FB3E0">
-      <animate attributeName="cy" values="350;50;350" dur="18s" repeatCount="indefinite" calcMode="linear"/>
-      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.9;1" dur="18s" repeatCount="indefinite"/>
+    <circle cx="1060" cy="380" r="1.5" fill="#F8F0F3" opacity=".5">
+      <animate attributeName="cy" values="380;90;380" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.7;.7;0" keyTimes="0;.1;.9;1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="500" cy="400" r="1" fill="#4A90D9">
-      <animate attributeName="cy" values="400;20;400" dur="22s" repeatCount="indefinite" calcMode="linear"/>
-      <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.1;0.9;1" dur="22s" repeatCount="indefinite"/>
+
+    <!-- Right Side Orbital Architecture Geometry -->
+    <g transform="translate(940 240)">
+      <!-- Outer Orbit Ring -->
+      <circle r="160" fill="none" stroke="#C77B9B" stroke-opacity=".12" stroke-dasharray="6 8"/>
+      <!-- Inner Orbit Ring -->
+      <circle r="105" fill="none" stroke="#E5B5C7" stroke-opacity=".18"/>
+      <!-- Core Hub -->
+      <circle r="52" fill="#190B12" stroke="#C77B9B" stroke-opacity=".4"/>
+      <circle r="42" fill="#451126" stroke="#E5B5C7" stroke-opacity=".6"/>
+      <text class="vh-mono" font-size="12" fill="#F8F0F3" text-anchor="middle" dy="4" letter-spacing="1">DISTRIB</text>
+
+      <!-- Rotating Orbit 1 with 2 nodes -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="32s" repeatCount="indefinite"/>
+        <circle cx="105" cy="0" r="4.5" fill="#F8F0F3" filter="url(#vh-glowf)"/>
+        <circle cx="-105" cy="0" r="3.5" fill="#E5B5C7"/>
+      </g>
+      <!-- Rotating Orbit 2 with 3 nodes (counter) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="44s" repeatCount="indefinite"/>
+        <circle cx="0" cy="160" r="4" fill="#E5B5C7"/>
+        <circle cx="138" cy="-80" r="3" fill="#C77B9B"/>
+        <circle cx="-138" cy="-80" r="3" fill="#C77B9B"/>
+      </g>
+    </g>
+
+    <!-- LEFT CONTENT AREA -->
+    <!-- Eyebrow Pill Tag -->
+    <g class="vh-in d1" transform="translate(64 56)">
+      <rect width="390" height="28" rx="14" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/>
+      <circle cx="14" cy="14" r="4" fill="#E5B5C7"/>
+      <text class="vh-mono" x="28" y="18" font-size="10.5" letter-spacing="2.2" fill="#E5B5C7">BACKEND SYSTEMS · DISTRIBUTED ARCHITECTURE</text>
+    </g>
+
+    <!-- Hero Title / Name -->
+    <g class="vh-in d2">
+      <text class="vh-serif" x="62" y="148" font-size="64" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Vaibhav <tspan font-style="italic" fill="url(#vh-sheen)">Rastogi</tspan></text>
+    </g>
+
+    <!-- Tagline & Architecture Mission -->
+    <g class="vh-in d3">
+      <text class="vh-sans" x="64" y="196" font-size="20" font-weight="400" fill="#E5B5C7" letter-spacing=".2">Building distributed systems that fail safely and scale silently.</text>
+      <text class="vh-sans" x="64" y="226" font-size="15" fill="#B6A3AC">B.Tech IT · KIET Group of Institutions (AKTU) · CGPA 8.3 · Backend Systems Intern @ OrganicSabziwala</text>
+    </g>
+
+    <!-- Accent Draw Line -->
+    <path class="vh-draw" d="M64 256 H740" stroke="#701A3D" stroke-width="1.2"/>
+    <circle cx="64" cy="256" r="6" fill="url(#vh-pulse)" opacity="0">
+      <animate attributeName="cx" values="64;740" dur="7s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;.15;1" dur="7s" begin="1.8s" repeatCount="indefinite"/>
     </circle>
+
+    <!-- 3 Core Highlight Modules -->
+    <g class="vh-in d4" transform="translate(64 290)">
+      <!-- Metric 1: Patent -->
+      <g>
+        <text class="vh-mono" font-size="10.5" letter-spacing="2" fill="#C77B9B">INTELLECTUAL PROPERTY</text>
+        <text class="vh-serif" y="38" font-size="32" font-weight="300" fill="#F8F0F3">Patent Filed</text>
+        <text class="vh-sans" y="58" font-size="12.5" fill="#B6A3AC">Saarthi AR/VR Cultural Platform</text>
+      </g>
+      <!-- Metric 2: GATE -->
+      <g transform="translate(230 0)">
+        <text class="vh-mono" font-size="10.5" letter-spacing="2" fill="#C77B9B">NATIONAL EXAM</text>
+        <text class="vh-serif" y="38" font-size="32" font-weight="300" fill="#F8F0F3">GATE 2026</text>
+        <text class="vh-sans" y="58" font-size="12.5" fill="#B6A3AC">Qualified · Computer Science</text>
+      </g>
+      <!-- Metric 3: Contributions -->
+      <g transform="translate(450 0)">
+        <text class="vh-mono" font-size="10.5" letter-spacing="2" fill="#C77B9B">GITHUB COMMIT ACTIVITY</text>
+        <text class="vh-serif" y="38" font-size="32" font-weight="300" fill="#F8F0F3">2,438</text>
+        <text class="vh-sans" y="58" font-size="12.5" fill="#B6A3AC">Contributions over past year</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g class="vh-in d5" transform="translate(64 426)">
+      <rect width="660" height="34" rx="8" fill="#14090F" stroke="#C77B9B" stroke-opacity=".2"/>
+      <circle cx="16" cy="17" r="4" fill="#34D399"/>
+      <text class="vh-mono" x="30" y="21" font-size="11.5" fill="#E5B5C7"><tspan fill="#34D399">ACTIVE ›</tspan> Python (FastAPI/Django) · Kafka · Redis · PostgreSQL · Docker · AWS</text>
+    </g>
   </g>
-
-  <!-- Circuit grid dots (static) -->
-  <g opacity="0.12">
-    <circle cx="30" cy="30" r="2" fill="#4A90D9"/>
-    <circle cx="90" cy="30" r="2" fill="#4A90D9"/>
-    <circle cx="150" cy="30" r="2" fill="#4A90D9"/>
-    <circle cx="30" cy="90" r="2" fill="#4A90D9"/>
-    <circle cx="90" cy="90" r="2" fill="#4A90D9"/>
-    <circle cx="150" cy="90" r="2" fill="#4A90D9"/>
-    <circle cx="30" cy="150" r="2" fill="#4A90D9"/>
-    <circle cx="90" cy="150" r="2" fill="#4A90D9"/>
-    <circle cx="150" cy="150" r="2" fill="#4A90D9"/>
-    <circle cx="30" cy="270" r="2" fill="#4A90D9"/>
-    <circle cx="90" cy="270" r="2" fill="#4A90D9"/>
-    <circle cx="750" cy="60" r="2" fill="#7FB3E0"/>
-    <circle cx="810" cy="60" r="2" fill="#7FB3E0"/>
-    <circle cx="870" cy="60" r="2" fill="#7FB3E0"/>
-    <circle cx="750" cy="360" r="2" fill="#7FB3E0"/>
-    <circle cx="810" cy="360" r="2" fill="#7FB3E0"/>
-    <circle cx="870" cy="360" r="2" fill="#7FB3E0"/>
-    <circle cx="750" cy="420" r="2" fill="#7FB3E0"/>
-    <circle cx="810" cy="420" r="2" fill="#7FB3E0"/>
-    <circle cx="870" cy="420" r="2" fill="#7FB3E0"/>
-  </g>
-
-  <!-- Draw-on accent lines (animated) -->
-  <g fill="none">
-    <polyline class="hero-draw" points="30,30 90,30 90,90 150,90" stroke="#4A90D9" stroke-width="1" opacity="0.18"/>
-    <polyline class="hero-draw" points="30,150 90,150 90,210" stroke="#4A90D9" stroke-width="1" opacity="0.15"/>
-    <polyline class="hero-draw" points="870,60 810,60 810,120 750,120" stroke="#7FB3E0" stroke-width="1" opacity="0.18"/>
-    <polyline class="hero-draw" points="870,360 810,360 810,420 750,420" stroke="#7FB3E0" stroke-width="1" opacity="0.15"/>
-  </g>
-
-  <!-- Top-left accent corner -->
-  <rect class="d1" x="0" y="0" width="4" height="120" fill="#4A90D9" opacity="0.8"/>
-  <rect class="d1" x="0" y="0" width="120" height="4" fill="#4A90D9" opacity="0.8"/>
-
-  <!-- Bottom-right accent corner -->
-  <rect class="d1" x="896" y="320" width="4" height="120" fill="#7FB3E0" opacity="0.6"/>
-  <rect class="d1" x="780" y="436" width="120" height="4" fill="#7FB3E0" opacity="0.6"/>
-
-  <!-- Tagline top -->
-  <text class="d2" x="200" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#4A90D9" letter-spacing="3" opacity="0.9">BACKEND ENGINEER  ·  AI SYSTEMS BUILDER</text>
-
-  <!-- Main Name with sheen animation -->
-  <text class="d3" x="200" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="700" fill="#E8F4FD" letter-spacing="-1">
-    Vaibhav
-    <animate attributeName="fill" values="#E8F4FD;#FFFFFF;#E8F4FD" dur="4s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-  </text>
-  <text class="d4" x="200" y="235" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="700" fill="#7FB3E0" letter-spacing="-1">Rastogi</text>
-
-  <!-- Divider line -->
-  <rect class="d4" x="200" y="258" width="380" height="2" fill="url(#lineGrad)" rx="1"/>
-
-  <!-- Role line -->
-  <text class="d5" x="200" y="296" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#8BA8C4" letter-spacing="0.5">B.Tech IT  ·  KIET Group of Institutions, AKTU  ·  CGPA 8.3</text>
-
-  <!-- Tagline -->
-  <text class="d5" x="200" y="338" font-family="'Segoe UI', Arial, sans-serif" font-size="17" fill="#E8F4FD" font-style="italic" opacity="0.85">Building distributed systems that fail safely</text>
-  <text class="d6" x="200" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="17" fill="#E8F4FD" font-style="italic" opacity="0.85">and scale silently.</text>
-
-  <!-- Blinking cursor after tagline -->
-  <rect class="d6" x="200" y="370" width="8" height="2" fill="#4A90D9" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0.8;0;0" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Location -->
-  <text class="d6" x="200" y="408" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4A90D9" opacity="0.7">📍 Ghaziabad, Uttar Pradesh  ·  India</text>
-
-  <!-- Decorative bracket right side -->
-  <text x="680" y="180" font-family="'Courier New', monospace" font-size="130" fill="#4A90D9" opacity="0.05" font-weight="700">{}</text>
 </svg>

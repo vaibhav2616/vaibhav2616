@@ -1,40 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
-  <rect width="900" height="200" fill="#060F1C"/>
-  <rect x="20" y="10" width="860" height="180" rx="10" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="cert-t cert-d">
+  <title id="cert-t">Certifications</title>
+  <desc id="cert-d">AWS Certified Cloud Practitioner, AWS Generative AI Practitioner, Cisco Networking Essentials, Intro to Modern AI, Palo Alto Cybersecurity, Linux CLI Infosys.</desc>
+  <defs>
+    <linearGradient id="ce-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="ce-glow" cx="80%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ce-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .ce-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ce-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ce-sans  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ce-card { animation: ce-in 1s cubic-bezier(.16,1,.3,1) both; }
+    .c1 { animation-delay: .05s; } .c2 { animation-delay: .2s; } .c3 { animation-delay: .35s; }
+    .c4 { animation-delay: .5s; }  .c5 { animation-delay: .65s; } .c6 { animation-delay: .8s; }
+    @keyframes ce-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    .ce-trace { stroke-dasharray: 200 1100; stroke-dashoffset: 1300; animation: ce-trace 6s linear infinite; }
+    @keyframes ce-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ce-card { animation: none; }
+      .ce-trace { display: none; }
+    }
+  </style>
 
-  <!-- Header -->
-  <text x="44" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4A90D9" font-weight="600" letter-spacing="2">VERIFIED CREDENTIALS</text>
+  <rect width="1200" height="320" rx="20" fill="url(#ce-bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#ce-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="319" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
 
-  <!-- Row 1 certs -->
-  <!-- Cert 1 -->
-  <rect x="44" y="60" width="190" height="50" rx="6" fill="#060F1C" stroke="#4A90D9" stroke-width="1"/>
-  <text x="54" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">AWS Cloud Practitioner</text>
-  <text x="54" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">Amazon Web Services · Jan 2026</text>
+  <!-- Row 1 -->
+  <!-- Cert 1: AWS Cloud Practitioner -->
+  <g class="ce-card c1" transform="translate(32 30)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:0s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">AWS · JAN 2026</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Cloud Practitioner</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Amazon Web Services · Core Cloud Architecture</text>
+  </g>
 
-  <!-- Cert 2 -->
-  <rect x="246" y="60" width="190" height="50" rx="6" fill="#060F1C" stroke="#4A90D9" stroke-width="1"/>
-  <text x="256" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">AWS GenAI Practitioner</text>
-  <text x="256" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">Amazon Web Services · Jan 2026</text>
+  <!-- Cert 2: AWS GenAI Practitioner -->
+  <g class="ce-card c2" transform="translate(420 30)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:-1s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">AWS · JAN 2026</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Generative AI Practitioner</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Amazon Web Services · Foundation Models &amp; LLMs</text>
+  </g>
 
-  <!-- Cert 3 -->
-  <rect x="448" y="60" width="190" height="50" rx="6" fill="#060F1C" stroke="#7FB3E0" stroke-width="1"/>
-  <text x="458" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">Cisco CCNA Essentials</text>
-  <text x="458" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">Cisco Networking · Apr 2026</text>
+  <!-- Cert 3: Cisco Networking CCNA -->
+  <g class="ce-card c3" transform="translate(808 30)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:-2s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">CISCO · APR 2026</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Networking Essentials</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Cisco CCNA Track · TCP/IP, Routing &amp; Subnets</text>
+  </g>
 
-  <!-- Cert 4 -->
-  <rect x="650" y="60" width="190" height="50" rx="6" fill="#060F1C" stroke="#7FB3E0" stroke-width="1"/>
-  <text x="660" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">Intro to Modern AI</text>
-  <text x="660" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">May 2026</text>
+  <!-- Row 2 -->
+  <!-- Cert 4: Modern AI -->
+  <g class="ce-card c4" transform="translate(32 170)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:-3s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">AI · MAY 2026</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Intro to Modern AI</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Neural Networks, Transformers &amp; Agentic AI</text>
+  </g>
 
-  <!-- Row 2 certs -->
-  <!-- Cert 5 -->
-  <rect x="44" y="122" width="190" height="50" rx="6" fill="#060F1C" stroke="#4A90D9" stroke-width="1"/>
-  <text x="54" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">Palo Alto Cybersecurity</text>
-  <text x="54" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">Palo Alto Networks</text>
+  <!-- Cert 5: Palo Alto Cybersecurity -->
+  <g class="ce-card c5" transform="translate(420 170)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:-4s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">PALO ALTO NETWORKS</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Cybersecurity Academy</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Network Defense &amp; Security Architecture</text>
+  </g>
 
-  <!-- Cert 6 -->
-  <rect x="246" y="122" width="190" height="50" rx="6" fill="#060F1C" stroke="#4A90D9" stroke-width="1"/>
-  <text x="256" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F4FD" font-weight="600">Linux CLI Foundations</text>
-  <text x="256" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4">Infosys Springboard</text>
+  <!-- Cert 6: Linux CLI Infosys -->
+  <g class="ce-card c6" transform="translate(808 170)">
+    <rect width="360" height="120" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="ce-trace" style="animation-delay:-5s" width="360" height="120" rx="12" fill="none" stroke="url(#ce-trace)" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="ce-mono" x="20" y="30" font-size="10" letter-spacing="2.2" fill="#C77B9B">INFOSYS SPRINGBOARD</text>
+    <text class="ce-serif" x="20" y="64" font-size="20" font-weight="300" fill="#F8F0F3">Linux Command Line</text>
+    <text class="ce-sans" x="20" y="88" font-size="12" fill="#B6A3AC">Shell scripting, Process Management &amp; POSIX</text>
+  </g>
 </svg>
-

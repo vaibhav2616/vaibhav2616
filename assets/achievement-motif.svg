@@ -1,76 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ach-title ach-desc">
+  <title id="ach-title">Recognition &amp; Milestones</title>
+  <desc id="ach-desc">Patent Filed: Saarthi AR/VR Cultural Heritage Platform (Dec 2024). GATE 2026 Qualified in Computer Science. National Hackathon 4th Rank at GNDE College Ludhiana. GDG AR/VR Mentor. SprintHacks 3.0 Organizer for 100+ participants.</desc>
+
   <defs>
-    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0D1F3C"/>
-      <stop offset="100%" style="stop-color:#0A1628"/>
+    <linearGradient id="ach-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="ach-glow-a" cx="85%" cy="0%" r="90%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ach-glow-b" cx="15%" cy="100%" r="80%">
+      <stop offset="0" stop-color="#451126" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ach-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="300" fill="#060F1C"/>
 
-  <!-- Achievement Card 1: Patent -->
-  <rect x="20" y="20" width="200" height="124" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
-  <rect x="20" y="20" width="200" height="4" rx="2" fill="#4A90D9"/>
-  <text x="120" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="28" text-anchor="middle" fill="#4A90D9">🏛️</text>
-  <text x="120" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#E8F4FD" text-anchor="middle">PATENT FILED</text>
-  <text x="120" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Saarthi AR/VR</text>
-  <text x="120" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Cultural Heritage Platform</text>
-  <text x="120" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#4A90D9" text-anchor="middle">Dec 2024</text>
+  <style>
+    .ach-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ach-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ach-sans  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ach-in { animation: ach-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .a1 { animation-delay: .1s; } .a2 { animation-delay: .35s; } .a3 { animation-delay: .6s; }
+    .ach-draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: ach-draw 2.6s cubic-bezier(.65,0,.35,1) .8s forwards; }
+    @keyframes ach-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes ach-draw { to { stroke-dashoffset: 0; } }
+    .ach-trace-a { stroke-dasharray: 340 1900; stroke-dashoffset: 2240; animation: ach-trace-a 6s linear infinite; }
+    .ach-trace-b { stroke-dasharray: 260 1452; stroke-dashoffset: 1712; animation: ach-trace-b 6s linear -3s infinite; }
+    @keyframes ach-trace-a { to { stroke-dashoffset: 0; } }
+    @keyframes ach-trace-b { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ach-in { animation: none; }
+      .ach-draw { animation: none; stroke-dashoffset: 0; }
+      .ach-trace-a, .ach-trace-b { display: none; }
+    }
+  </style>
 
-  <!-- Achievement Card 2: GATE -->
-  <rect x="235" y="20" width="200" height="124" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
-  <rect x="235" y="20" width="200" height="4" rx="2" fill="#7FB3E0"/>
-  <text x="335" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="28" text-anchor="middle" fill="#7FB3E0">📊</text>
-  <text x="335" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#E8F4FD" text-anchor="middle">GATE 2026 QUALIFIED</text>
-  <text x="335" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Computer Science</text>
-  <text x="335" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">National Level Exam</text>
-  <text x="335" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#7FB3E0" text-anchor="middle">2026</text>
+  <rect width="1200" height="420" rx="20" fill="url(#ach-bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ach-glow-a)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ach-glow-b)"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".18"/>
 
-  <!-- Achievement Card 3: Hackathon -->
-  <rect x="450" y="20" width="200" height="124" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
-  <rect x="450" y="20" width="200" height="4" rx="2" fill="#4A90D9"/>
-  <text x="550" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="28" text-anchor="middle" fill="#4A90D9">🏆</text>
-  <text x="550" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#E8F4FD" text-anchor="middle">NATIONAL HACKATHON</text>
-  <text x="550" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">4th Rank</text>
-  <text x="550" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">GNDE College, Ludhiana</text>
-  <text x="550" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#4A90D9" text-anchor="middle">2024</text>
+  <!-- Top Row: 2 Major Cards -->
+  <!-- Left Card: IP & Academics -->
+  <g class="ach-in a1" transform="translate(40 32)">
+    <rect width="600" height="236" rx="14" fill="#14090F" stroke="#C77B9B" stroke-opacity=".25"/>
+    <rect class="ach-trace-a" width="600" height="236" rx="14" fill="none" stroke="url(#ach-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    
+    <text class="ach-mono" x="28" y="36" font-size="10.5" letter-spacing="2.4" fill="#C77B9B">INTELLECTUAL PROPERTY &amp; CS CORE</text>
+    <text class="ach-serif" x="26" y="80" font-size="34" font-weight="300" fill="#F8F0F3">Patent Filed <tspan font-size="13" class="ach-mono" fill="#E5B5C7" dy="-14">DEC 2024</tspan></text>
+    <text class="ach-sans" x="28" y="108" font-size="15" fill="#E5B5C7">Saarthi: AR/VR Cultural Heritage Preservation Platform</text>
+    <text class="ach-sans" x="28" y="128" font-size="13" fill="#B6A3AC">Filed with Indian Patent Office · Spatial 3D photogrammetry and interactive XR</text>
 
-  <!-- Achievement Card 4: GDG -->
-  <rect x="665" y="20" width="215" height="124" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
-  <rect x="665" y="20" width="215" height="4" rx="2" fill="#7FB3E0"/>
-  <text x="773" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="28" text-anchor="middle" fill="#7FB3E0">🧑‍💻</text>
-  <text x="773" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#E8F4FD" text-anchor="middle">GDG AR/VR MENTOR</text>
-  <text x="773" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Google Developer Groups</text>
-  <text x="773" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">SprintHacks 3.0 Organizer</text>
-  <text x="773" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#7FB3E0" text-anchor="middle">100+ Participants</text>
+    <line x1="28" y1="148" x2="572" y2="148" stroke="#C77B9B" stroke-opacity=".2"/>
 
-  <!-- Bottom row: Extra stats -->
-  <rect x="20" y="164" width="860" height="112" rx="8" fill="#0A1628" stroke="#1A2E4A" stroke-width="1"/>
+    <!-- Dual Metric Underline -->
+    <g transform="translate(28 178)">
+      <text class="ach-serif" font-size="28" font-weight="300" fill="#F8F0F3">GATE 2026</text>
+      <text class="ach-mono" y="24" font-size="11" fill="#C77B9B">QUALIFIED · CS &amp; IT</text>
+    </g>
+    <g transform="translate(300 178)">
+      <text class="ach-serif" font-size="28" font-weight="300" fill="#F8F0F3">8.3 CGPA</text>
+      <text class="ach-mono" y="24" font-size="11" fill="#C77B9B">B.TECH IT · KIET GROUP</text>
+    </g>
+  </g>
 
-  <!-- Stat items -->
-  <text x="100" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#4A90D9" text-anchor="middle">1</text>
-  <text x="100" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Patent Filed</text>
+  <!-- Right Card: Hackathons & Community -->
+  <g class="ach-in a2" transform="translate(660 32)">
+    <rect width="500" height="236" rx="14" fill="#14090F" stroke="#C77B9B" stroke-opacity=".25"/>
+    <rect class="ach-trace-b" width="500" height="236" rx="14" fill="none" stroke="url(#ach-trace)" stroke-width="1.4" stroke-linecap="round"/>
 
-  <rect x="175" y="174" width="1" height="80" fill="#1A2E4A"/>
+    <text class="ach-mono" x="28" y="36" font-size="10.5" letter-spacing="2.4" fill="#C77B9B">HACKATHONS &amp; LEADERSHIP</text>
+    <text class="ach-serif" x="26" y="80" font-size="34" font-weight="300" fill="#F8F0F3">4th Rank <tspan font-size="13" class="ach-mono" fill="#E5B5C7" dy="-14">NATIONAL</tspan></text>
+    <text class="ach-sans" x="28" y="108" font-size="15" fill="#E5B5C7">National Level Hackathon @ GNDEC Ludhiana</text>
+    <text class="ach-sans" x="28" y="128" font-size="13" fill="#B6A3AC">Top tier finish competing against nationwide engineering cohorts</text>
 
-  <text x="270" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#7FB3E0" text-anchor="middle">GATE</text>
-  <text x="270" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">CS 2026 Cleared</text>
+    <line x1="28" y1="148" x2="472" y2="148" stroke="#C77B9B" stroke-opacity=".2"/>
 
-  <rect x="355" y="174" width="1" height="80" fill="#1A2E4A"/>
+    <g transform="translate(28 178)">
+      <text class="ach-serif" font-size="24" font-weight="300" fill="#F8F0F3">GDG AR/VR Mentor</text>
+      <text class="ach-mono" y="24" font-size="11" fill="#C77B9B">DEV COMMUNITY LEAD</text>
+    </g>
+    <g transform="translate(270 178)">
+      <text class="ach-serif" font-size="24" font-weight="300" fill="#F8F0F3">SprintHacks 3.0</text>
+      <text class="ach-mono" y="24" font-size="11" fill="#C77B9B">100+ PARTICIPANTS</text>
+    </g>
+  </g>
 
-  <text x="450" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#4A90D9" text-anchor="middle">4th</text>
-  <text x="450" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">National Hackathon Rank</text>
+  <!-- Bottom Row: 4 Quick Stats -->
+  <g class="ach-in a3" transform="translate(40 292)">
+    <rect width="1120" height="96" rx="12" fill="#14090F" stroke="#C77B9B" stroke-opacity=".2"/>
+    
+    <g transform="translate(48 24)">
+      <text class="ach-mono" font-size="10" letter-spacing="2" fill="#C77B9B">GITHUB COMMITS</text>
+      <text class="ach-serif" y="34" font-size="30" font-weight="300" fill="#F8F0F3">2,438</text>
+      <text class="ach-sans" y="52" font-size="11.5" fill="#B6A3AC">282 active days</text>
+    </g>
 
-  <rect x="540" y="174" width="1" height="80" fill="#1A2E4A"/>
+    <g transform="translate(320 24)">
+      <text class="ach-mono" font-size="10" letter-spacing="2" fill="#C77B9B">LONGEST STREAK</text>
+      <text class="ach-serif" y="34" font-size="30" font-weight="300" fill="#F8F0F3">62 Days</text>
+      <text class="ach-sans" y="52" font-size="11.5" fill="#B6A3AC">Dec 2025 – Feb 2026</text>
+    </g>
 
-  <text x="640" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#7FB3E0" text-anchor="middle">100+</text>
-  <text x="640" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">SprintHacks Participants</text>
+    <g transform="translate(590 24)">
+      <text class="ach-mono" font-size="10" letter-spacing="2" fill="#C77B9B">INDUSTRY CERTIFICATIONS</text>
+      <text class="ach-serif" y="34" font-size="30" font-weight="300" fill="#F8F0F3">6 Verified</text>
+      <text class="ach-sans" y="52" font-size="11.5" fill="#B6A3AC">AWS · Cisco · Palo Alto</text>
+    </g>
 
-  <rect x="730" y="174" width="1" height="80" fill="#1A2E4A"/>
-
-  <text x="820" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#4A90D9" text-anchor="middle">6+</text>
-  <text x="820" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8BA8C4" text-anchor="middle">Certifications</text>
-
-  <!-- Innotech label -->
-  <text x="450" y="254" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8BA8C4" text-anchor="middle">Also showcased at Innotech 2024 alongside projects from multiple colleges and institutions</text>
+    <g transform="translate(860 24)">
+      <text class="ach-mono" font-size="10" letter-spacing="2" fill="#C77B9B">LEETCODE &amp; DSA</text>
+      <text class="ach-serif" y="34" font-size="30" font-weight="300" fill="#F8F0F3">@vaibhav123i</text>
+      <text class="ach-sans" y="52" font-size="11.5" fill="#B6A3AC">C++ &amp; Python problem solving</text>
+    </g>
+  </g>
 </svg>
-

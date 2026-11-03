@@ -233,3 +233,4 @@ const target = path.resolve(OUTPUT);
 fs.mkdirSync(path.dirname(target), { recursive: true });
 fs.writeFileSync(target, svg, "utf8");
 console.log(`Rendered heatmap SVG (${total} contributions) → ${OUTPUT}`);
+

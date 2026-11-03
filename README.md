@@ -47,8 +47,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=vaibhav2616&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=16&amp;bg_color=190B12&amp;title_color=E5B5C7&amp;text_color=B6A3AC&amp;icon_color=C77B9B&amp;custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for vaibhav2616: stars, commits, pull requests and issues">
 </p>
 
-<img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Six credentials, verified.">
-<img src="assets/certifications.svg" width="100%" alt="Certifications: AWS Certified Cloud Practitioner, AWS Generative AI Practitioner, Cisco Networking Essentials, Intro to Modern AI, Palo Alto Networks Cybersecurity, Linux Command Line Infosys Springboard.">
+<img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Industry credentials, verified.">
+<img src="assets/certifications.svg" width="100%" alt="Certifications: AWS Cloud Technical Essentials, Cisco Cybersecurity Essentials, Palo Alto Networks Cybersecurity Fundamentals, HackerRank Software Engineer Intern, SQL Advanced, Frontend React, Java Basic, DeepLearning.AI Machine Learning.">
 
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something reliable.">
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="06 Certifications: Six credentials, verified.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="06 Certifications: Industry credentials, verified.">
   <defs>
     <linearGradient id="tce-line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
       <stop offset="0" stop-color="#C77B9B"/><stop offset=".6" stop-color="#701A3D"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
@@ -24,10 +24,10 @@
     <text class="tce-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#C77B9B"><tspan fill="#E5B5C7">06</tspan>   CERTIFICATIONS</text>
   </g>
   <g class="tce-in tce-d2">
-    <text class="tce-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#F8F0F3">Six credentials, <tspan font-style="italic" fill="url(#tce-sheen)">verified.</tspan></text>
+    <text class="tce-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#F8F0F3">Industry credentials, <tspan font-style="italic" fill="url(#tce-sheen)">verified.</tspan></text>
   </g>
   <g class="tce-in tce-d3">
-    <text class="tce-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">AWS · CISCO · PALO ALTO · INFOSYS</text>
+    <text class="tce-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">AWS · CISCO · PALO ALTO · HACKERRANK</text>
   </g>
   <path class="tce-draw" d="M40 106 H1160" stroke="url(#tce-line)" stroke-width="1"/>
   <circle cx="40" cy="106" r="7" fill="url(#tce-pulse)" opacity="0">

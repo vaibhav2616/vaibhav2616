@@ -48,7 +48,7 @@
 </p>
 
 <img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Industry credentials, verified.">
-<img src="assets/certifications.svg" width="100%" alt="Certifications: AWS Cloud Technical Essentials, Cisco Cybersecurity Essentials, Palo Alto Networks Cybersecurity Fundamentals, HackerRank Software Engineer Intern, SQL Advanced, Frontend React, Java Basic, DeepLearning.AI Machine Learning.">
+<img src="assets/certifications.svg" width="100%" alt="Certifications: AWS Certified Cloud Practitioner, AWS Generative AI Practitioner, Cisco Networking Essentials, Introduction to Modern AI, Palo Alto Networks Cybersecurity Fundamentals, Linux Command Line Infosys Springboard.">
 
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something reliable.">
 

@@ -27,7 +27,7 @@
     <text class="tce-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#F8F0F3">Industry credentials, <tspan font-style="italic" fill="url(#tce-sheen)">verified.</tspan></text>
   </g>
   <g class="tce-in tce-d3">
-    <text class="tce-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">AWS · CISCO · PALO ALTO · HACKERRANK</text>
+    <text class="tce-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">AWS · CISCO · PALO ALTO · INFOSYS</text>
   </g>
   <path class="tce-draw" d="M40 106 H1160" stroke="url(#tce-line)" stroke-width="1"/>
   <circle cx="40" cy="106" r="7" fill="url(#tce-pulse)" opacity="0">

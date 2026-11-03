@@ -44,9 +44,7 @@
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">
 <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating real public GitHub contributions for @vaibhav2616 over the past year: 2,438 contributions, 282 active days, longest streak 62 days, busiest day 48 contributions. Re-rendered daily.">
 
-<p align="center">
-  <img src="assets/github-stats.svg" width="495" alt="GitHub at a glance for vaibhav2616: stars, commits, pull requests and issues">
-</p>
+<img src="assets/github-stats.svg" width="100%" alt="GitHub at a glance: 2,438 public commits across 282 active days, 12 stars, 18 merged pull requests, and 35+ distributed systems repositories.">
 
 <img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Industry credentials, verified.">
 <img src="assets/certifications.svg" width="100%" alt="Certifications: AWS Certified Cloud Practitioner, AWS Generative AI Practitioner, Cisco Networking Essentials, Introduction to Modern AI, Palo Alto Networks Cybersecurity Fundamentals, Linux Command Line Infosys Springboard.">

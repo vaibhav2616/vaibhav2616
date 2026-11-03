@@ -1,71 +1,158 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub at a glance for vaibhav2616 (Cyber Edition)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="GitHub at a glance for vaibhav2616 (Cyber Edition): Total Commits, Stars, Merged PRs, and Repositories">
   <title>GitHub at a glance for vaibhav2616 (Cyber Edition)</title>
   <defs>
-    <linearGradient id="bg-c" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg-cyber" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#070B16"/>
-      <stop offset="100%" stop-color="#0B1323"/>
+      <stop offset="60%" stop-color="#081020"/>
+      <stop offset="100%" stop-color="#050811"/>
     </linearGradient>
-    <linearGradient id="trace-c" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="glow-cyber" cx="20%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace-cyber" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#2575FC"/>
+      <stop offset="50%" stop-color="#247BFF"/>
       <stop offset="100%" stop-color="#FF2D7A"/>
     </linearGradient>
-    <filter id="glow-c" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="card-edge-cyber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#247BFF" stop-opacity="0.1"/>
+    </linearGradient>
   </defs>
+
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #00E5FF; }
-    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13.5px; font-weight: 400; fill: #8E9DB9; }
-    .val   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; font-weight: 700; fill: #F2F5FF; }
-    .icon  { fill: #247BFF; }
-    .stat-row { animation: row-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
-    @keyframes row-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-    .border-trace { stroke-dasharray: 240 1140; stroke-dashoffset: 1380; animation: trace-move 8s linear infinite; }
-    @keyframes trace-move { to { stroke-dashoffset: 0; } }
-    @media (prefers-reduced-motion: reduce) { .stat-row, .border-trace { animation: none !important; } }
+    .gs-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #F2F5FF; letter-spacing: -0.3px; }
+    .gs-sub   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; fill: #247BFF; letter-spacing: 1.5px; }
+    .gs-badge { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #00E5FF; letter-spacing: 1px; }
+    .gs-label { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #8E9DB9; letter-spacing: 1.2px; }
+    .gs-val   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 32px; font-weight: 800; fill: #00E5FF; }
+    .gs-desc  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12.5px; fill: #6A80A6; }
+    .gs-strip { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; fill: #8E9DB9; letter-spacing: 0.8px; }
+    .gs-strip-val { font-weight: 700; fill: #F2F5FF; }
+    .gs-icon  { fill: #00E5FF; }
+    
+    .border-trace {
+      stroke-dasharray: 400 2560;
+      stroke-dashoffset: 2960;
+      animation: trace-move 10s linear infinite;
+    }
+    @keyframes trace-move {
+      to { stroke-dashoffset: 0; }
+    }
+    .pulse-dot {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .border-trace, .pulse-dot { animation: none !important; }
+    }
   </style>
 
-  <!-- Background Card -->
-  <rect x="0.5" y="0.5" width="494" height="194" rx="16" fill="url(#bg-c)" stroke="#223B5B" stroke-width="1"/>
-  <rect class="border-trace" x="0.5" y="0.5" width="494" height="194" rx="16" fill="none" stroke="url(#trace-c)" stroke-width="1.8"/>
+  <!-- Background Base Canvas -->
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="url(#bg-cyber)" stroke="#1A304D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="url(#glow-cyber)"/>
+  <rect class="border-trace" x="0.5" y="0.5" width="1199" height="279" rx="18" fill="none" stroke="url(#trace-cyber)" stroke-width="1.8"/>
 
-  <!-- Title Header -->
-  <g transform="translate(26, 36)">
+  <!-- Top Header Bar -->
+  <g transform="translate(40, 26)">
     <!-- GitHub Octocat Icon -->
-    <path class="icon" d="M -2 -14 C -7.52 -14 -12 -9.52 -12 -4 C -12 0.42 -9.13 4.17 -5.17 5.49 C -4.57 5.6 -4.35 5.23 -4.35 4.91 C -4.35 4.63 -4.36 3.86 -4.37 2.87 C -7.15 3.47 -7.74 1.52 -7.74 1.52 C -8.19 0.37 -8.84 0.06 -8.84 0.06 C -9.75 -0.56 -8.77 -0.55 -8.77 -0.55 C -7.76 -0.48 -7.23 0.49 -7.23 0.49 C -6.34 2.02 -4.89 1.58 -4.32 1.32 C -4.23 0.67 -3.97 0.23 -3.68 0.02 C -5.9 -0.23 -8.24 -1.12 -8.24 -4.95 C -8.24 -6.04 -7.85 -6.93 -7.21 -7.63 C -7.31 -7.88 -7.65 -8.9 -7.11 -10.26 C -7.11 -10.26 -6.27 -10.53 -4.36 -9.23 C -3.56 -9.45 -2.71 -9.56 -1.86 -9.56 C -1.01 -9.56 -0.16 -9.45 0.64 -9.23 C 2.55 -10.53 3.39 -10.26 3.39 -10.26 C 3.93 -8.9 3.59 -7.88 3.49 -7.63 C 4.13 -6.93 4.52 -6.04 4.52 -4.95 C 4.52 -1.11 2.17 -0.24 -0.06 0.01 C 0.3 0.32 0.62 0.94 0.62 1.9 C 0.62 3.28 0.61 4.39 0.61 4.73 C 0.61 5.05 0.83 5.43 1.44 5.31 C 5.4 4 -0.06 0.42 -0.06 -4 C -0.06 -9.52 -4.54 -14 -10.06 -14 Z" transform="translate(14, -2) scale(1.1)"/>
-    <text class="title" x="22" y="0">GitHub at a glance</text>
+    <path class="gs-icon" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" transform="scale(1.1)"/>
+    <text class="gs-title" x="38" y="21">GitHub at a glance</text>
+    <text class="gs-sub" x="245" y="20">// HUD TELEMETRY &amp; ACTIVITY</text>
+
+    <!-- Status Badge (Right) -->
+    <g transform="translate(870, 0)">
+      <rect width="250" height="28" rx="14" fill="#060A13" stroke="#1B324F" stroke-width="1"/>
+      <circle class="pulse-dot" cx="18" cy="14" r="4.5" fill="#00E5FF"/>
+      <text class="gs-badge" x="32" y="18">SYSTEM ONLINE | 2024-2026</text>
+    </g>
   </g>
 
-  <!-- Stat Rows -->
-  <g transform="translate(28, 54)">
-    <!-- Row 1: Total Stars -->
-    <g class="stat-row" transform="translate(0, 20)">
-      <path class="icon" d="M 0 -10 L 2.4 -2.8 L 10 -2.8 L 3.8 1.6 L 6.2 9 L 0 4.4 L -6.2 9 L -3.8 1.6 L -10 -2.8 L -2.4 -2.8 Z" transform="translate(10, 2) scale(0.7)"/>
-      <text class="label" x="26" y="5">Total Stars Earned:</text>
-      <text class="val" x="430" y="5" text-anchor="end">12</text>
-    </g>
+  <!-- Dividing Line -->
+  <line x1="40" y1="72" x2="1160" y2="72" stroke="#1B324F" stroke-width="1"/>
 
-    <!-- Row 2: Total Commits -->
-    <g class="stat-row" transform="translate(0, 48)" style="animation-delay: 0.1s">
-      <path class="icon" d="M 1 0 C 1 -2.76 -1.24 -5 -4 -5 C -6.76 -5 -9 -2.76 -9 0 L -14 0 L -14 2 L -9 2 C -9 4.76 -6.76 7 -4 7 C -1.24 7 1 4.76 1 2 L 6 2 L 6 0 L 1 0 Z M -4 5 C -6.21 5 -8 3.21 -8 1 C -8 -1.21 -6.21 -3 -4 -3 C -1.79 -3 0 -1.21 0 1 C 0 3.21 -1.79 5 -4 5 Z" transform="translate(14, 0) scale(0.9)"/>
-      <text class="label" x="26" y="5">Total Commits (2024 - 2026):</text>
-      <text class="val" x="430" y="5" text-anchor="end">2,438</text>
-    </g>
+  <!-- 4 Stat Dashboard Tiles -->
+  <!-- Tile 1: Commits -->
+  <g transform="translate(40, 88)">
+    <rect width="265" height="128" rx="14" fill="#0A1426" stroke="#1B324F" stroke-width="1"/>
+    <rect width="265" height="128" rx="14" fill="none" stroke="url(#card-edge-cyber)" stroke-width="1"/>
+    
+    <!-- Icon & Label -->
+    <path class="gs-icon" d="M10.5 5a2 2 0 10-3 1.732V9.5a.5.5 0 01-.5.5h-1a2 2 0 100 2h1a2.5 2.5 0 002.5-2.5V6.732A2 2 0 0010.5 5z" transform="translate(20, 16) scale(1.1)"/>
+    <text class="gs-label" x="42" y="27">PUBLIC COMMITS</text>
+    
+    <!-- Value -->
+    <text class="gs-val" x="20" y="74">2,438</text>
+    
+    <!-- Subtitle -->
+    <text class="gs-desc" x="20" y="105">282 Active Days (86%)</text>
+  </g>
 
-    <!-- Row 3: Total PRs -->
-    <g class="stat-row" transform="translate(0, 76)" style="animation-delay: 0.2s">
-      <path class="icon" d="M 4 2 L 4 7 C 4 8.1 3.1 9 2 9 C 0.9 9 0 8.1 0 7 L 0 2 C -0.89 1.6 -1.5 0.7 -1.5 -0.3 C -1.5 -1.7 -0.4 -2.8 1 -2.8 C 2.4 -2.8 3.5 -1.7 3.5 -0.3 C 3.5 0.7 2.89 1.6 2 2 L 2 5 L 4 5 L 4 2 Z" transform="translate(10, 2) scale(0.9)"/>
-      <text class="label" x="26" y="5">Total PRs Merged &amp; Built:</text>
-      <text class="val" x="430" y="5" text-anchor="end">18</text>
-    </g>
+  <!-- Tile 2: Stars -->
+  <g transform="translate(325, 88)">
+    <rect width="265" height="128" rx="14" fill="#0A1426" stroke="#1B324F" stroke-width="1"/>
+    <rect width="265" height="128" rx="14" fill="none" stroke="url(#card-edge-cyber)" stroke-width="1"/>
+    
+    <!-- Icon & Label -->
+    <path class="gs-icon" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" transform="translate(18, 14) scale(0.9)"/>
+    <text class="gs-label" x="42" y="27">TOTAL STARS</text>
+    
+    <!-- Value -->
+    <text class="gs-val" x="20" y="74">12</text>
+    
+    <!-- Subtitle -->
+    <text class="gs-desc" x="20" y="105">Across open-source repos</text>
+  </g>
 
-    <!-- Row 4: Contributed Repositories -->
-    <g class="stat-row" transform="translate(0, 104)" style="animation-delay: 0.3s">
-      <path class="icon" d="M 2 1 C 2 -0.66 0.66 -2 -1 -2 C -2.66 -2 -4 -0.66 -4 1 C -4 2.66 -2.66 4 -1 4 C 0.66 4 2 2.66 2 1 Z M -1 -4 C 1.76 -4 4 -1.76 4 1 C 4 3.76 1.76 6 -1 6 C -3.76 6 -6 3.76 -6 1 C -6 -1.76 -3.76 -4 -1 -4 Z" transform="translate(10, 0) scale(0.9)"/>
-      <text class="label" x="26" y="5">Total Repositories &amp; Architectures:</text>
-      <text class="val" x="430" y="5" text-anchor="end">35+</text>
-    </g>
+  <!-- Tile 3: Pull Requests -->
+  <g transform="translate(610, 88)">
+    <rect width="265" height="128" rx="14" fill="#0A1426" stroke="#1B324F" stroke-width="1"/>
+    <rect width="265" height="128" rx="14" fill="none" stroke="url(#card-edge-cyber)" stroke-width="1"/>
+    
+    <!-- Icon & Label -->
+    <path class="gs-icon" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2 2 2 0 002-2V5a2 2 0 00-2-2zm0 2a1 1 0 11-2 0 1 1 0 012 0zm10 4a2 2 0 00-2 2v4a2 2 0 002 2 2 2 0 002-2v-4a2 2 0 00-2-2zm0 2a1 1 0 11-2 0 1 1 0 012 0z" transform="translate(18, 14) scale(0.9)"/>
+    <text class="gs-label" x="42" y="27">PRS MERGED</text>
+    
+    <!-- Value -->
+    <text class="gs-val" x="20" y="74">18</text>
+    
+    <!-- Subtitle -->
+    <text class="gs-desc" x="20" y="105">Production code reviews</text>
+  </g>
+
+  <!-- Tile 4: Repositories -->
+  <g transform="translate(895, 88)">
+    <rect width="265" height="128" rx="14" fill="#0A1426" stroke="#1B324F" stroke-width="1"/>
+    <rect width="265" height="128" rx="14" fill="none" stroke="url(#card-edge-cyber)" stroke-width="1"/>
+    
+    <!-- Icon & Label -->
+    <path class="gs-icon" d="M2 3a1 1 0 011-1h10a1 1 0 011 1v2a1 1 0 01-1 1H3a1 1 0 01-1-1V3zm0 5a1 1 0 011-1h10a1 1 0 011 1v2a1 1 0 01-1 1H3a1 1 0 01-1-1V8zm0 5a1 1 0 011-1h10a1 1 0 011 1v2a1 1 0 01-1 1H3a1 1 0 01-1-1v-2z" transform="translate(18, 14) scale(0.9)"/>
+    <text class="gs-label" x="42" y="27">REPOSITORIES</text>
+    
+    <!-- Value -->
+    <text class="gs-val" x="20" y="74">35+</text>
+    
+    <!-- Subtitle -->
+    <text class="gs-desc" x="20" y="105">Distributed &amp; Systems</text>
+  </g>
+
+  <!-- Bottom Telemetry Footer Strip -->
+  <g transform="translate(40, 232)">
+    <rect width="1120" height="32" rx="8" fill="#060A13" stroke="#15273F" stroke-width="1"/>
+    
+    <text class="gs-strip" x="24" y="21">LONGEST STREAK: <tspan class="gs-strip-val">62 DAYS</tspan></text>
+    <circle cx="230" cy="16" r="2.5" fill="#00E5FF"/>
+    
+    <text class="gs-strip" x="254" y="21">BUSIEST DAY: <tspan class="gs-strip-val">48 COMMITS</tspan></text>
+    <circle cx="460" cy="16" r="2.5" fill="#00E5FF"/>
+    
+    <text class="gs-strip" x="484" y="21">PRIMARY STACK: <tspan class="gs-strip-val">PYTHON (FASTAPI) | SQL | C/C++ | DOCKER</tspan></text>
+    <circle cx="920" cy="16" r="2.5" fill="#00E5FF"/>
+    
+    <text class="gs-strip" x="944" y="21">SYSTEM TELEMETRY: <tspan class="gs-strip-val">ONLINE</tspan></text>
   </g>
 </svg>

@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tk-in { animation: none; } .tk-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tk-in">
-    <text class="tk-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">04</tspan>   TOOLKIT</text>
+    <text class="tk-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">04</tspan>  <tspan fill="#FF2D7A">//</tspan>  TOOLKIT</text>
   </g>
   <g class="tk-in tk-d2">
     <text class="tk-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">The tools <tspan font-style="italic" fill="url(#tk-sheen)">I reach for.</tspan></text>

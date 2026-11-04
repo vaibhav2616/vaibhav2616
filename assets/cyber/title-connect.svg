@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tcn-in { animation: none; } .tcn-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tcn-in">
-    <text class="tcn-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">07</tspan>   CONNECT</text>
+    <text class="tcn-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">07</tspan>  <tspan fill="#FF2D7A">//</tspan>  CONNECT</text>
   </g>
   <g class="tcn-in tcn-d2">
     <text class="tcn-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Let's build <tspan font-style="italic" fill="url(#tcn-sheen)">something reliable.</tspan></text>

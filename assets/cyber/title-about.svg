@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .ta-in { animation: none; } .ta-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="ta-in">
-    <text class="ta-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">01</tspan>   ABOUT</text>
+    <text class="ta-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">01</tspan>  <tspan fill="#FF2D7A">//</tspan>  ABOUT</text>
   </g>
   <g class="ta-in ta-d2">
     <text class="ta-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Hello, I'm <tspan font-style="italic" fill="url(#ta-sheen)">Vaibhav.</tspan></text>

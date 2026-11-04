@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tw-in { animation: none; } .tw-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tw-in">
-    <text class="tw-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">03</tspan>   SELECTED WORK</text>
+    <text class="tw-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">03</tspan>  <tspan fill="#FF2D7A">//</tspan>  SELECTED WORK</text>
   </g>
   <g class="tw-in tw-d2">
     <text class="tw-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Systems, <tspan font-style="italic" fill="url(#tw-sheen)">not assignments.</tspan></text>

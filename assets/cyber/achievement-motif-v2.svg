@@ -35,7 +35,12 @@
     <linearGradient id="ach-trace" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f2f5ff"/><stop offset=".45" stop-color="#00e5ff"/><stop offset="1" stop-color="#4d9fff" stop-opacity="0"/>
     </linearGradient>
-  </defs>
+  
+    <radialGradient id="ach-red-glow" cx="15%" cy="85%" r="65%">
+      <stop offset="0%" stop-color="#FF2D7A" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#FF2D7A" stop-opacity="0"/>
+    </radialGradient>
+</defs>
 
   <style>
     .ach-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -74,7 +79,7 @@
     <rect class="ach-trace-a" x=".5" y=".5" width="699" height="249" rx="15.5" fill="none" stroke="url(#ach-trace)" stroke-width="1.8" stroke-linecap="round"/>
     <rect x="40" y="0" width="300" height="1" fill="url(#ach-hair)"/>
     <text class="ach-mono" x="36" y="154" font-size="12" letter-spacing="2.6" fill="#4d9fff">INTELLECTUAL PROPERTY · GOVT OF INDIA</text>
-    <text class="ach-serif" x="34" y="204" font-size="46" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Patent Filed</text>
+    <text class="ach-serif" x="34" y="204" font-size="46" font-weight="300" letter-spacing="-1" fill="#f2f5ff"><tspan fill="#FF2D7A">Patent Filed</tspan></text>
     <text class="ach-sans" x="36" y="230" font-size="14" fill="#8e9db9">Saarthi — Assistive AR/VR Cultural Heritage Preservation Platform</text>
   </g></g>
 
@@ -90,7 +95,7 @@
       <rect class="ach-trace-b" x=".5" y=".5" width="475" height="249" rx="15.5" fill="none" stroke="url(#ach-trace)" stroke-width="1.8" stroke-linecap="round"/>
       <rect x="40" y="0" width="220" height="1" fill="url(#ach-hair)"/>
       <text class="ach-mono" x="32" y="154" font-size="12" letter-spacing="2.6" fill="#4d9fff">NATIONAL COMPETITIVE EXAMINATION</text>
-      <text class="ach-serif" x="30" y="204" font-size="46" font-weight="300" letter-spacing="-1" fill="#f2f5ff">GATE 2026</text>
+      <text class="ach-serif" x="30" y="204" font-size="46" font-weight="300" letter-spacing="-1" fill="#f2f5ff">GATE <tspan fill="#FF2D7A">2026</tspan></text>
       <text class="ach-sans" x="32" y="230" font-size="14" fill="#8e9db9">Computer Science &amp; Information Technology</text>
     </g>
   </g></g>
@@ -137,5 +142,11 @@
     <path d="M1102 28l9 0 -7 18h-9Z" fill="#ff354f"/>
     <path d="M1114 28l9 0 -7 18h-9Z" fill="#ff354f"/>
   </g>
+
+  <!-- Red Telemetry Brackets -->
+  <path d="M40 50 H56 V66" fill="none" stroke="#FF2D7A" stroke-width="2"/>
+  <path d="M720 50 H704 V66" fill="none" stroke="#FF2D7A" stroke-width="2"/>
+  <path d="M760 50 H776 V66" fill="none" stroke="#FF2D7A" stroke-width="2"/>
+  <path d="M1160 50 H1144 V66" fill="none" stroke="#FF2D7A" stroke-width="2"/>
 </svg>
 

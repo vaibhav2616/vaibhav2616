@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tc-in { animation: none; } .tc-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tc-in">
-    <text class="tc-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">05</tspan>   COMMIT LOG</text>
+    <text class="tc-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">05</tspan>  <tspan fill="#FF2D7A">//</tspan>  COMMIT LOG</text>
   </g>
   <g class="tc-in tc-d2">
     <text class="tc-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">A year of <tspan font-style="italic" fill="url(#tc-sheen)">building.</tspan></text>

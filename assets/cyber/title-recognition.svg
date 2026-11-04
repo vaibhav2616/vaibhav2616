@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tr-in { animation: none; } .tr-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tr-in">
-    <text class="tr-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">02</tspan>   RECOGNITION</text>
+    <text class="tr-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">02</tspan>  <tspan fill="#FF2D7A">//</tspan>  RECOGNITION</text>
   </g>
   <g class="tr-in tr-d2">
     <text class="tr-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Proof, <tspan font-style="italic" fill="url(#tr-sheen)">on the record.</tspan></text>

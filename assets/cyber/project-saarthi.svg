@@ -17,7 +17,12 @@
     <linearGradient id="p4-trace" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f2f5ff"/><stop offset=".45" stop-color="#00e5ff"/><stop offset=".7" stop-color="#ff354f"/><stop offset="1" stop-color="#ff354f" stop-opacity="0"/>
     </linearGradient>
-  </defs>
+  
+    <radialGradient id="saarthi-red-glow" cx="15%" cy="85%" r="65%">
+      <stop offset="0%" stop-color="#FF2D7A" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#FF2D7A" stop-opacity="0"/>
+    </radialGradient>
+</defs>
   <style>
     .p4-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
     .p4-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
@@ -39,17 +44,18 @@
     <rect width="1200" height="370" fill="url(#p4-bg)"/>
     <rect x="720" width="480" height="370" fill="url(#p4-grid)"/>
     <rect width="1200" height="370" fill="url(#p4-glow)"/>
+    <rect width="1200" height="370" fill="url(#saarthi-red-glow)"/>
 
     <!-- Left Column: Content & Metrics -->
     <g class="p4-in p4-d1">
-      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#4d9fff">01 · SPATIAL COMPUTING · PATENT FILED · 2024</text>
+      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#4d9fff">01 · SPATIAL COMPUTING · <tspan fill="#FF2D7A" font-weight="700">PATENT FILED</tspan> · 2024</text>
       <text class="p4-serif" x="54" y="126" font-size="50" font-weight="300" letter-spacing="-1.5" fill="#f2f5ff">Saarthi AR/VR Platform</text>
       <text class="p4-sans" x="56" y="166" font-size="17" fill="#8e9db9">Immersive 3D cultural reconstruction platform with spatial photogrammetry &amp; interactive physics.</text>
       <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#00e5ff"><tspan fill="#4d9fff">BUILT ›</tspan> Unity 3D spatial engine + real-time rendering + Indian Patent Office filing</text>
       <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#4d9fff" stroke-opacity=".3"/>
 
       <g transform="translate(56 266)">
-        <text class="p4-serif" font-size="34" font-weight="300" fill="#f2f5ff">Patent</text>
+        <text class="p4-serif" font-size="34" font-weight="300" fill="#FF2D7A">Patent</text>
         <text class="p4-sans" y="24" font-size="12.5" fill="#8e9db9">filed with Indian Patent Office</text>
       </g>
       <g transform="translate(261 266)">
@@ -108,4 +114,7 @@
     <path d="M1102 28l9 0 -7 18h-9Z" fill="#ff354f"/>
     <path d="M1114 28l9 0 -7 18h-9Z" fill="#ff354f"/>
   </g>
+
+  <path d="M50 40 H65 V55" fill="none" stroke="#FF2D7A" stroke-width="2"/>
+  <path d="M1150 40 H1135 V55" fill="none" stroke="#FF2D7A" stroke-width="2"/>
 </svg>

@@ -21,7 +21,7 @@
     @media (prefers-reduced-motion: reduce) { .tce-in { animation: none; } .tce-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tce-in">
-    <text class="tce-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#00e5ff">06</tspan>   CERTIFICATIONS</text>
+    <text class="tce-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#4d9fff"><tspan fill="#FF2D7A">06</tspan>  <tspan fill="#FF2D7A">//</tspan>  CERTIFICATIONS</text>
   </g>
   <g class="tce-in tce-d2">
     <text class="tce-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#f2f5ff">Industry credentials, <tspan font-style="italic" fill="url(#tce-sheen)">verified.</tspan></text>

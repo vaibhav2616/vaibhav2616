@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="hero-title hero-desc">
   <title id="hero-title">Vaibhav Rastogi — Backend Systems Engineer &amp; Distributed Architect</title>
-  <desc id="hero-desc">Building distributed systems that fail safely and scale silently. B.Tech in Information Technology at KIET Group of Institutions, CGPA 8.30. Patent Filed for Saarthi AR/VR Platform. GATE 2026 CS.</desc>
+  <desc id="hero-desc">Building distributed systems that fail safely and scale silently. B.Tech in Information Technology at KIET Group of Institutions, CGPA 8.30. Patent Filed for Saarthi AR/VR Platform. GATE <tspan fill="#FF2D7A" font-weight="700">2026</tspan> CS.</desc>
 
   <defs>
     <radialGradient id="hero-bg" cx="72%" cy="38%" r="80%">
@@ -78,7 +78,12 @@
       <stop offset="1" stop-color="#ff2d7a"/>
     </linearGradient>
     <clipPath id="hero-clip"><rect width="1200" height="480" rx="20"/></clipPath>
-  </defs>
+  
+    <radialGradient id="hero-red-glow" cx="15%" cy="85%" r="65%">
+      <stop offset="0%" stop-color="#FF2D7A" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#FF2D7A" stop-opacity="0"/>
+    </radialGradient>
+</defs>
 
   <style>
     .hero-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -240,7 +245,7 @@
     <g class="hero-fade d6">
       <line x1="72" y1="446" x2="1128" y2="446" stroke="#4d9fff" stroke-opacity=".14"/>
       <text class="hero-mono" x="72" y="466" font-size="10.5" letter-spacing="2" fill="#8e9db9">B.TECH IT · KIET GROUP OF INSTITUTIONS · CGPA 8.30</text>
-      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#00e5ff">PATENT FILED (SAARTHI AR/VR) · GATE 2026 CS</text>
+      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#00e5ff"><tspan fill="#FF2D7A" font-weight="700">PATENT FILED</tspan> (SAARTHI AR/VR) · GATE <tspan fill="#FF2D7A" font-weight="700">2026</tspan> CS</text>
     </g>
 
     <!-- Outer Frame -->
@@ -252,4 +257,10 @@
     <path d="M1104 29l9 0 -7 18h-9Z" fill="#ff354f"/>
     <path d="M1116 29l9 0 -7 18h-9Z" fill="#ff354f"/>
   </g>
+
+      <!-- Crimson Tech Brackets on Portrait -->
+      <path d="M790 120 H805 V135" fill="none" stroke="#FF2D7A" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M1150 120 H1135 V135" fill="none" stroke="#FF2D7A" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M790 440 H805 V425" fill="none" stroke="#FF2D7A" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M1150 440 H1135 V425" fill="none" stroke="#FF2D7A" stroke-width="2.2" stroke-linecap="round"/>
 </svg>

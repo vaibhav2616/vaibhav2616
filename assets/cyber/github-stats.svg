@@ -155,4 +155,10 @@
     
     <text class="gs-strip" x="944" y="21">SYSTEM TELEMETRY: <tspan class="gs-strip-val">ONLINE</tspan></text>
   </g>
+
+  <g class="ug-chevrons" opacity="0.9">
+    <path d="M810 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M822 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M834 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+  </g>
 </svg>

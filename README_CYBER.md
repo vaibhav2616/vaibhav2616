@@ -37,8 +37,7 @@
   <a href="https://github.com/vaibhav2616"><img src="https://img.shields.io/badge/Patent_Record-Saarthi_Platform-1240BD?style=for-the-badge&amp;labelColor=070B16&amp;logoColor=F2F5FF&amp;logo=github" alt="Saarthi repository"></a>
 </p>
 
-<img src="assets/cyber/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
-<img src="assets/cyber/tech-constellation-v2.svg" width="100%" alt="Tech stack. Languages: Python (primary), C, C++, C#, SQL, JavaScript. AI/ML: CrewAI, Gemini API, MCP, NLP, OCR. Backend: FastAPI, Django, REST APIs, SQLAlchemy, JWT. Data and infrastructure: PostgreSQL, Kafka, Redis, Docker, AWS. Tools: Git, GitHub, Postman.">
+<img src="assets/cyber/stack.svg" width="100%" alt="04 My Engine Room: Tools change. Curiosity doesn't. Languages, Systems, and Distributed Architecture.">
 <img src="assets/cyber/id-dashboard-stack.svg" width="100%" alt="Builder ID Pass &amp; Systems Engine Room: Verified identity, photo badge, and cyber neon systems tech console covering Python (Primary), FastAPI, Django, C/C++, SQL, Kafka, Redis, Docker, and AWS.">
 
 <img src="assets/cyber/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">

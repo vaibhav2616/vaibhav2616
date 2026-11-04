@@ -131,5 +131,11 @@
       <text y="102">distributed microservices</text>
     </g>
   </g>
+
+  <g class="ug-chevrons" opacity="0.9">
+    <path d="M1090 28l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1102 28l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1114 28l9 0 -7 18h-9Z" fill="#ff354f"/>
+  </g>
 </svg>
 

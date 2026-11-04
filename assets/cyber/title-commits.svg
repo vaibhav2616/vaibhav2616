@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="05 Commit log: A year of building.">
   <defs>
     <linearGradient id="tc-line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
-      <stop offset="0" stop-color="#4d9fff"/><stop offset=".6" stop-color="#247bff"/><stop offset="1" stop-color="#247bff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4d9fff"/><stop offset=".6" stop-color="#247bff"/><stop offset=".8" stop-color="#ff354f" stop-opacity=".7"/><stop offset="1" stop-color="#ff354f" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="tc-sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
       <stop offset="0" stop-color="#00e5ff"/><stop offset=".5" stop-color="#f2f5ff"/><stop offset="1" stop-color="#00e5ff"/>
@@ -34,4 +34,10 @@
     <animate attributeName="cx" values="40;1160" dur="6s" begin="2.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
     <animate attributeName="opacity" values="0;1;0" keyTimes="0;.15;1" dur="6s" begin="2.3s" repeatCount="indefinite"/>
   </circle>
+
+  <g class="ug-chevrons" opacity="0.9">
+    <path d="M1090 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1102 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1114 24l9 0 -7 18h-9Z" fill="#ff354f"/>
+  </g>
 </svg>

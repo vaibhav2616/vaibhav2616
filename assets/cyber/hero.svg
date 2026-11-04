@@ -143,6 +143,10 @@
         <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="140s" repeatCount="indefinite"/>
       </circle>
       <circle r="190" fill="none" stroke="url(#hero-orbit-grad)" stroke-width="1"/>
+      <circle r="204" fill="none" stroke="#ff354f" stroke-width="1.8" stroke-dasharray="75 1200" opacity=".85">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      </circle>
+
       <circle r="160" fill="none" stroke="#4d9fff" stroke-opacity=".16" stroke-dasharray="2 7"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="95s" repeatCount="indefinite"/>
@@ -200,7 +204,7 @@
     <!-- Top Terminal Pill Indicator -->
     <g class="hero-fade d1" transform="translate(72 64)">
       <rect width="322" height="34" rx="17" fill="#070b16" stroke="#4d9fff" stroke-opacity=".25"/>
-      <circle cx="20" cy="17" r="4" fill="#4d9fff">
+      <circle cx="20" cy="17" r="4" fill="#ff354f">
         <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
       </circle>
       <text class="hero-mono" x="34" y="21.5" font-size="12" fill="#8e9db9">~/vaibhav<tspan fill="#4d9fff"> $ </tspan><tspan fill="#f2f5ff">build --distributed</tspan></text>
@@ -241,5 +245,11 @@
 
     <!-- Outer Frame -->
     <rect x=".5" y=".5" width="1199" height="479" rx="19.5" fill="none" stroke="#4d9fff" stroke-opacity=".18"/>
+  </g>
+
+  <g class="ug-chevrons" opacity="0.9">
+    <path d="M1092 29l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1104 29l9 0 -7 18h-9Z" fill="#ff354f"/>
+    <path d="M1116 29l9 0 -7 18h-9Z" fill="#ff354f"/>
   </g>
 </svg>

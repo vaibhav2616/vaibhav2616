@@ -1,0 +1,15 @@
+# Local profile theme toggler and templates
+toggle-theme.bat
+switch-theme.ps1
+README_BURGUNDY.md
+README_CYBER.md
+
+# Local build scripts and site data
+scripts/
+site/
+.github/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
